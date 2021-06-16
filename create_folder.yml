@@ -1,0 +1,9 @@
+- name: Create folder
+  hosts: 127.0.0.1
+  gather_facts: no
+  connection: local
+
+  tasks:  
+    
+    - create_folder:
+        pt: '/tmp/test11'
